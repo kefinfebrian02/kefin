@@ -1,0 +1,1065 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+
+
+
+body {
+    min-height: 100vh;
+
+    background: #05080d;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    overflow: auto;
+}
+
+
+
+.logo {
+    position: fixed;
+
+    top: 30px;
+    left: 30px;
+
+    color: #9acd32;
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    z-index: 10;
+}
+
+
+/* =================================
+   NAVBAR
+================================= */
+
+.menu {
+    position: fixed;
+
+    left: 30px;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 25px;
+
+    z-index: 10;
+}
+
+
+
+
+.menu a {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 70px;
+
+    text-decoration: none !important;
+
+    color: #9acd32 !important;
+
+    font-size: 11px;
+
+    line-height: 1.5;
+}
+
+
+
+
+.menu a b {
+    color: #9acd32 !important;
+
+    font-size: 12px;
+
+    font-weight: normal;
+
+    text-decoration: underline;
+
+    margin-bottom: 2px;
+}
+
+
+
+
+.menu a span {
+    color: #777 !important;
+
+    font-size: 9px;
+
+    letter-spacing: 1px;
+
+    text-decoration: underline;
+}
+
+
+
+
+.menu a:hover {
+    color: #c8ff45 !important;
+}
+
+.menu a:hover b {
+    color: #c8ff45 !important;
+}
+
+.menu a:hover span {
+    color: #aaa !important;
+}
+
+
+/* =================================
+   HERO
+================================= */
+
+.hero {
+    min-height: 100vh;
+	
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    /*
+       INI YANG MEMBERI JARAK
+       ANTARA NAVBAR DAN RICKI
+    */
+    padding-left: 240px;
+
+    padding-right: 60px;
+}
+
+
+/* =================================
+   SUBTITLE
+================================= */
+
+.subtitle {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+
+    color: #9acd32;
+
+    font-family: monospace;
+
+    font-size: 15px;
+
+    letter-spacing: 5px;
+}
+
+
+
+.dot {
+    width: 7px;
+
+    height: 7px;
+
+    background: #9acd32;
+
+    border-radius: 50%;
+
+    display: inline-block;
+}
+
+
+/* =================================
+   NAMA BESAR
+================================= */
+
+.hero h1 {
+    color: #f1f1f1;
+
+    font-size: clamp(80px, 14vw, 190px);
+
+    font-weight: 900;
+	
+    line-height: 0.82;
+
+    letter-spacing: -8px;
+
+    margin-bottom: 48px;
+}
+
+
+/* =================================
+   DESKRIPSI
+================================= */
+
+.description {
+    max-width: 570px;
+
+    color: #777;
+
+    font-family: monospace;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+
+    margin-bottom: 35px;
+    margin-top: 50px;
+}
+
+
+.awar {
+	font-size: 35px;
+	
+	font-weight: 900;
+    margin-top: 50px;
+	
+	line-height: 1.5;
+	height: 80px;
+	margin-left: 180px;
+	
+}
+
+.awar b {
+	padding: 20px;
+	
+	font-size: 15px;
+	
+	font-weight: 500;
+	
+	color: #9acd32;
+	
+}
+
+.tentang {
+	max-width: 570px;
+
+    color: #777;
+
+    font-family: monospace;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+	
+	margin-left: 200px;
+
+    margin-bottom: 35px;
+}
+
+
+.garis {
+	width: 100%;
+
+    max-width: 450px;
+
+    height: 1px;
+
+    background: #303030;
+	
+	margin-left: 847px;
+	
+	margin-top: -250px;
+}
+
+.pinggir {
+
+    max-width: 570px;
+
+    color: white;
+
+    font-family: monospace;
+
+    font-size: 15px;
+
+    line-height: 1.8;
+	
+	margin-left: 130px;
+
+    margin-bottom: 35px;
+}
+
+.tempat {
+
+    font-family: monospace;
+	
+	margin-bottom: 50px;
+	
+	font-size: 17px;
+	
+	font-weight: 700;
+
+    margin-top: 15px;
+	
+	
+}
+.tempat span {
+	
+	padding: 40px;
+	
+	font-size: 15px;
+	
+	font-weight: 900;
+	
+	color: #777;
+	
+	margin-left: 847px;
+	
+	margin-top: -250px;
+	
+}
+
+.garis1 {
+	width: 100%;
+
+    max-width: 450px;
+
+    height: 1px;
+
+    background: #303030;
+	
+	margin-left: 847px;
+	
+	margin-top: -30px;
+}
+
+.tempat1 {
+	
+	margin-bottom: 50px;
+	
+	font-size: 15px;
+	
+	font-weight: 700;
+
+    margin-top: 15px;
+	
+	
+}
+
+.tempat1 span {
+	
+	padding: 40px;
+	
+	font-size: 15px;
+	
+	font-weight: 900;
+	
+	color: #777;
+	
+	margin-left: 850px;
+	
+	
+}
+
+.garis2 {
+	width: 100%;
+
+    max-width: 450px;
+
+    height: 1px;
+
+    background: #303030;
+	
+	margin-left: 847px;
+	
+	margin-top: -30px;
+}
+
+.tempat2 {
+	
+	margin-bottom: 50px;
+	
+	font-size: 15px;
+	
+	font-weight: 700;
+
+    margin-top: 15px;
+	
+	
+}
+
+.tempat2 span {
+	
+	padding: 40px;
+	
+	font-size: 15px;
+	
+	font-weight: 900;
+	
+	color: #777;
+	
+	margin-left: 850px;
+	
+	
+}
+
+.garis3 {
+	width: 100%;
+
+    max-width: 450px;
+
+    height: 1px;
+
+    background: #303030;
+	
+	margin-left: 847px;
+	
+	margin-top: -30px;
+}
+
+.tempat3 {
+	
+	margin-bottom: 50px;
+	
+	font-size: 15px;
+	
+	font-weight: 700;
+
+    margin-top: 15px;
+	
+	
+}
+
+.tempat3 span {
+	
+	padding: 40px;
+	
+	font-size: 15px;
+	
+	font-weight: 900;
+	
+	color: #777;
+	
+	margin-left: 850px;
+	
+	
+}
+
+
+/* =================================
+   GARIS
+================================= */
+
+.line {
+    margin-top: 50px;
+     border-bottom: 1px solid  #303030;
+    
+    margin-left: 200px;
+    
+    width: 1100px;
+   
+    
+
+    
+}
+
+.lino {
+    margin-top: 50px;
+     border-bottom: 1px solid  #303030;
+    
+   
+    
+    width: 1050px;
+   
+    
+
+    
+}
+
+
+/* =================================
+   TAHUN
+================================= */
+
+.year {
+    position: fixed;
+
+    left: 30px;
+
+    bottom: 20px;
+
+    color: #777;
+
+    font-family: monospace;
+
+    font-size: 10px;
+}
+
+
+/* =========================
+   SECTION KERJAAN
+========================= */
+
+.pekerjaan {
+    width: 95%;
+    max-width: 1200px;
+    /* margin: 80px auto; */
+    color: white;
+}
+
+.pekerjaan h2 {
+    font-size: 55px;
+    margin-bottom: 45px;
+}
+
+
+/* =========================
+   PROJECT
+========================= */
+
+.project {
+    border-bottom: 1px solid #303030;
+     
+    margin-left: 180px;
+    height: 200px ;
+    width: 1100px ;
+    
+    
+}
+
+
+/* =========================
+   HEADER PROJECT
+========================= */
+
+.project-header {
+    display: grid;
+    grid-template-columns: 45px 1fr 90px;
+
+    align-items: start;
+    margin-left: 22px;
+    padding: 28px 0;
+
+    cursor: pointer;
+}
+
+
+/*====================
+  bikin tag turun 
+ =====================*/
+.tags {
+    grid-column: 2;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+/*======================================
+  biar judul dan isi tersusun ke bawa 
+ ======================================*/
+.project-title {
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.project-judul{
+    font-size: 15px;
+    color: white;
+}
+
+
+/* =========================
+   NOMOR
+========================= */
+
+.project-number {
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    padding-top: 8px;
+
+}
+
+
+/* =========================
+   JUDUL
+========================= */
+
+.project-title h3 {
+    margin: 0;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    transition: 0.3s;
+}
+
+.project-header:hover h3 {
+    opacity: 0.7;
+}
+
+
+/* =========================
+   TAHUN
+========================= */
+
+.project-year {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+/* =========================
+   TOMBOL PLUS
+========================= */
+
+.plus {
+    border: none;
+    background: transparent;
+
+    color: white;
+
+    font-size: 15px;
+    line-height: 1;
+    
+    cursor: pointer;
+
+    width: 25px;
+    height: 25px;
+
+    transition: 0.3s;
+}
+
+.project-header:hover .plus {
+    transform: scale(1.2);
+    
+}
+
+
+/* =========================
+   DETAIL
+========================= */
+
+.project-detail {
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+
+    transition:
+        max-height 0.5s ease,
+        opacity 0.4s ease,
+        margin-top 0.4s ease;
+}
+
+
+/* =========================
+   SAAT DIBUKA
+========================= */
+
+.project-header.active .project-detail {
+    max-height: 300px;
+
+    opacity: 1;
+
+    margin-top: 22px;
+}
+
+
+/* =========================
+   DESKRIPSI
+========================= */
+
+.project-detail p {
+    max-width: 600px;
+
+    font-size: 16px;
+    line-height: 1.7;
+
+    color: #777;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   TAG
+========================= */
+
+.tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.tags span {
+    border: 1px solid rgba(255,255,255,0.5);
+
+    padding: 7px 12px;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    color: white;
+}
+
+
+/*========================
+ ,mengubah warna tulisan 
+ ========================*/
+h3{
+    display: block;
+    color: #9acd32;
+    font-size: 23px;
+}
+
+
+/*==========================
+  tulisan di dalam kotak 
+ ==========================*/
+.stack {
+    border: 2px solid #303030;
+    height: 100px;
+    width: 350px;
+    margin-left: 200px;
+    
+
+}
+
+
+/*============================
+ tulisan dalam kotak ketengah 
+ ============================*/
+.text {
+    margin-left: 12px;
+    color: #777;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.box {
+    margin-left: 570px;
+    border: 2px solid #303030;
+    height: 100px;
+    width: 350px;
+    margin-top: -100px;
+    font-size: 15px;
+}
+
+.datatools{
+    margin-left: 940px;
+
+    border: 2px solid #303030;
+
+    height: 100px;
+
+    width: 350px;
+
+    font-size: 15px;
+
+    margin-top: -100px;
+}
+
+.link {
+    color: white;
+    margin-left: 200px;
+    font-size: 15px;
+    border-bottom: 1px solid  #f1f1f1;
+    font-family: monospace;
+}
+ 
+.tolka {
+    color: white;
+    margin-left: 200px;
+    font-size: 15px;
+     border-bottom: 1px solid  #f1f1f1;
+     margin-top: -500px !important;
+     font-family: monospace;
+}
+
+
+/* =========================
+   FORM KONTAK
+========================= */
+
+.form-kontak {
+    width: 100%;
+    max-width: 600px;
+
+    margin-left: 650px;
+    margin-top: -170px;
+}
+
+
+/* =========================
+   FORM GROUP
+========================= */
+
+.form-group {
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+
+/* =========================
+   PESAN
+========================= */
+
+.pesan {
+    margin-top: 0;
+}
+
+
+/* =========================
+   LABEL
+========================= */
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 18px;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    color: #777;
+}
+
+
+/* =========================
+   INPUT EMAIL
+========================= */
+
+.form-group input {
+    width: 100%;
+    height: 55px;
+
+    padding: 10px 0;
+
+    background: transparent;
+
+    border: none;
+    border-bottom: 1px solid #292929;
+
+    outline: none;
+
+    color: white;
+
+    font-size: 17px;
+
+    transition: 0.3s;
+}
+
+
+/* =========================
+   TEXTAREA PESAN
+========================= */
+
+.form-group textarea {
+    width: 100%;
+    height: 130px;
+
+    padding: 10px 0;
+
+    background: transparent;
+
+    border: none;
+    border-bottom: 1px solid #292929;
+
+    outline: none;
+
+    color: white;
+
+    font-size: 17px;
+
+    resize: vertical;
+
+    transition: 0.3s;
+}
+
+
+/* =========================
+   FOCUS INPUT
+========================== */
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-bottom: 1px solid #eaff00;
+}
+
+
+/* =========================
+   TOMBOL KIRIM PESAN
+========================= */
+
+.form-kontak button {
+    display: block;
+
+    width: 130px;
+    max-width: 200px;
+    height: 57px;
+  
+
+    /* Naik dan geser ke kiri */
+    margin-top: -57px;
+    margin-left: 0;
+    margin-right: auto;
+
+    border-radius: 12px;
+    border: none;
+
+    background: #eaff00;
+    color: #111;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+
+    position: relative;
+    z-index: 2;
+}
+
+.garis17 {
+	width: 100%;
+
+    max-width: 1050px;
+
+    height: 1px;
+
+    background: white;
+
+    margin-top: -0px !important ;
+	
+	margin-left: 200px;
+
+    border-bottom: 1px solid #303030;
+}
+
+.form-kontak button:hover {
+    background: #d5e900;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   HOVER TOMBOL
+========================= */
+
+.form-kontak button:hover {
+    background: #d5e900;
+
+    transform: translateY(-2px);
+}
+
+.ke-atas{
+    margin-left: 1200px;
+
+    color: white;
+
+    font-size: 13px;
+}
+
+.garis18 {
+	width: 2px;
+
+    height: 100vh;
+
+    background: #303030;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 100px;
+	
+	
+}
+
+.k1text{
+    font-family: monospace;
+
+    color: #777;
+
+    margin-left: 200px;
+
+    font-size: 13px;
+    
+    margin-top: -10px;
+
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .kontak {
+        padding: 60px 30px;
+    }
+
+    .form-group {
+        margin-bottom: 30px;
+    }
+
+    .form-group label {
+        font-size: 12px;
+    }
+
+    .form-kontak {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .form-kontak button {
+        width: 190px;
+        height: 60px;
+        margin-top: -60px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+     .pekerjaan h2 {
+        font-size: 40px;
+    }
+
+    .project-header {
+        grid-template-columns: 35px 1fr 70px;
+    }
+
+    .project-title h3 {
+        font-size: 21px;
+    }
+
+    .project-detail p {
+        font-size: 14px;
+    }
+
+    .project-year {
+        font-size: 10px;
+    }
+}
+
